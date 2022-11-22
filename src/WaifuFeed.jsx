@@ -15,7 +15,7 @@ function WaifuFeed() {
                     style={{
                         maxWidth:"200px",
                         maxHeight: "200px",
-                        borderRadius:"2em",
+                        borderRadius:"10px",
                     }}
                 >
                 </img>
@@ -42,11 +42,11 @@ function WaifuFeed() {
                     className='waifu-feed'
                     style={{
                         display: "grid",
-                        gridTemplateColumns: "1fr 1fr 1fr 1fr",
+                        gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
                         justifyItems: "center",
-                        //gridGap: "5px",
+                        gridColumnGap: "10px",
+                        gridRowGap: "5px",
                         margin: "auto",
-                        gap: "50px",
                     }
                 }>
                     {waifuPics}

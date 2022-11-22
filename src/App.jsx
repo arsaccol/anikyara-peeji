@@ -30,8 +30,9 @@ function Main() {
     return (
         <div className='main' style={{
             color: Theme.textPrimary,
+            margin: "auto",
+
         }}>
-          Main
           <WaifuFeed/>
         </div>
     )
